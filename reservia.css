@@ -1,33 +1,108 @@
-.titres{
-    font-weight: bold;
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/static/Raleway-Regular.ttf");
 }
 
-#header-principal
-{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+@font-face {
+  font-family: "Raleway-bold";
+  src: url("fonts/static/Raleway-Bold.ttf");
 }
-#header-principal .button
-{
-    flex: 1;
-    width: 12%;
-    display: flex;
-    align-self: center;
-    justify-content: flex-end;
-    height: 6em;
+
+.titres {
+  font-weight: bold;
+  font-family: "Raleway-bold";
+  font-size: 32px;
 }
-#header-principal #spacer
-{
-    flex: 8;
+
+.regulartypo {
+  font-family: "Raleway";
 }
-#header-principal span
-{
-    align-self: center;
-    justify-content: flex-start;
+.thintypo {
+  font-family: "Raleway";
 }
-a
-{
-    align-self: center;
+
+.thicctypo {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+#header-principal {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header-principal .button {
+  flex: 1;
+  width: 12%;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  height: 6em;
+}
+
+#header-principal #spacer {
+  flex: 8;
+}
+
+#header-principal span {
+  align-self: center;
+  justify-content: flex-start;
+}
+
+a {
+  align-self: center;
+}
+
+a.nolink {
+  text-decoration: none;
+}
+
+.txtblue {
+  color: #0065fc;
+}
+
+.txtblack {
+  color: black;
+}
+
+div.select {
+  border-style: solid none none none;
+  border-color: #0065fc;
+}
+
+.aligner {
+  display: flex;
+}
+
+.mapbox {
+  display: flex;
+  border-radius: 25px 0px 0px 25px;
+  background: #f2f2f2;
+  padding: 1px;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbox {
+  display: flex;
+  border-radius: 0px 25px 25px 0px;
+  background-color: #0065fc;
+  padding: 1px;
+  width: 110px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway-bold";
+  font-size: 13.28px;
+  color: white;
+}
+
+.inputbox {
+  display: flex;
+  border-radius: 0px 0px 0px 0px;
+  background-color: #f2f2f2;
 }
