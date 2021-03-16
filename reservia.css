@@ -106,3 +106,13 @@ div.select {
   border-radius: 0px 0px 0px 0px;
   background-color: #f2f2f2;
 }
+
+.semibold {
+  display: flex;
+  font-family: "Raleway-bold";
+  font-size: 13.28px;
+}
+
+.spacearound {
+  display: flex;
+}
