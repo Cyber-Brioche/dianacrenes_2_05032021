@@ -111,8 +111,122 @@ div.select {
   display: flex;
   font-family: "Raleway-bold";
   font-size: 13.28px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
 }
 
-.spacearound {
+.moneybox {
   display: flex;
+  background-color: #deebff;
+  padding: 7px;
+  width: 20px;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  color: #0065fc;
+}
+
+.money {
+  display: flex;
+  font-family: "Raleway-bold";
+  font-size: 13.28px;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  width: 110px;
+  height: 30px;
+}
+
+.childbox {
+  display: flex;
+  background-color: #deebff;
+  padding: 7px;
+  width: 20px;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  color: #0065fc;
+}
+
+.child {
+  display: flex;
+  font-family: "Raleway-bold";
+  font-size: 13.28px;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  width: 110px;
+  height: 30px;
+}
+
+.heartbox {
+  display: flex;
+  background-color: #deebff;
+  padding: 7px;
+  width: 20px;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  color: #0065fc;
+}
+
+.heart {
+  display: flex;
+  font-family: "Raleway-bold";
+  font-size: 13.28px;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  width: 110px;
+  height: 30px;
+}
+
+.dogbox {
+  display: flex;
+  background-color: #deebff;
+  padding: 7px;
+  width: 20px;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  color: #0065fc;
+}
+
+.dog {
+  display: flex;
+  font-family: "Raleway-bold";
+  font-size: 13.28px;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  width: 130px;
+  height: 30px;
+}
+
+.info {
+  display: flex;
+  border: 1px solid #deebff;
+  padding: 7px;
+  width: 20px;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logement {
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
 }
