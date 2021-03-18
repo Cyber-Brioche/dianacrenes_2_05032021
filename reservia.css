@@ -8,6 +8,11 @@
   src: url("fonts/static/Raleway-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Raleway-extrabold";
+  src: url("fonts/static/Raleway-ExtraBold.ttf");
+}
+
 .titres {
   font-weight: bold;
   font-family: "Raleway-bold";
@@ -229,4 +234,85 @@ div.select {
   justify-content: center;
   align-items: center;
   padding: 1px;
+}
+
+.hébergement {
+  display: flex;
+  background-color: #f2f2f2;
+  flex: 3;
+  border-radius: 15px 15px 15px 15px;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.populaires {
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 15px 15px 15px 15px;
+  flex: 1;
+  margin: 10px;
+}
+
+.spacearound {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.cartehébergement {
+  display: flex;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  width: 210px;
+  justify-content: center;
+  align-items: top;
+  flex-direction: column;
+  box-shadow: 2px 2px 20px silver;
+}
+
+.imagehebergement {
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  width: 204px;
+  height: 90px;
+  padding: 3px;
+}
+
+.auberge {
+  display: flex;
+  font-family: "Raleway-extrabold";
+  font-size: 12px;
+  padding-left: 12px;
+  padding-bottom: 4px;
+}
+
+.nuit {
+  display: flex;
+  font-family: "Raleway";
+  font-size: 11px;
+  padding-left: 12px;
+  padding-bottom: 4px;
+}
+
+.prix {
+  display: flex;
+  font-family: "Raleway-bold";
+  font-size: 11px;
+  padding-left: 3px;
+}
+
+.stars {
+  display: flex;
+  color: #0065fc;
+  padding-left: 12px;
+  padding-bottom: 4px;
+}
+
+.grey-star {
+  color: #f2f2f2;
+}
+
+.padding {
+  padding: 4px;
 }
