@@ -40,6 +40,7 @@
 
 .regulartypo {
   font-family: "Raleway";
+  font-size: 14px;
 }
 .thintypo {
   font-family: "Raleway";
@@ -508,4 +509,32 @@ div.select {
   height: 60%;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
+}
+
+.color-pointer:hover {
+  color: #0065fc;
+}
+
+.grey-box {
+  display: flex;
+  background-color: #f2f2f2;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.propos-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-left: 50px;
+}
+
+.propostypo {
+  display: flex;
+  font-family: "Raleway-extrabold";
+  font-size: 15px;
+}
+
+.propos-padding {
+  padding: 9px;
 }
