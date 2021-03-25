@@ -14,11 +14,12 @@
 }
 
 .titres {
-  display: flex;
-  flex-wrap: wrap;
   font-weight: bold;
   font-family: "Raleway-bold";
   font-size: 25px;
+  width: 80%;
+  word-wrap: break-word;
+  margin: 20px 0px 15px 0px;
 }
 
 .titres2 {
@@ -105,6 +106,17 @@ div.select {
   display: flex;
 }
 
+.alignerfiltres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filtrebutton {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px 5px 0px;
+}
+
 .filtre-padding {
   padding-right: 20px;
 }
@@ -132,6 +144,10 @@ div.select {
   font-family: "Raleway-bold";
   font-size: 13.28px;
   color: white;
+}
+
+.search-icon {
+  display: none !important;
 }
 
 .inputbox {
@@ -285,7 +301,7 @@ div.select {
   padding: 2px;
 }
 
-.hébergement {
+.hebergement {
   display: flex;
   background-color: #f2f2f2;
   flex: 3;
@@ -332,7 +348,7 @@ div.select {
   align-items: center;
 }
 
-.cartehébergement {
+.cartehebergement {
   display: flex;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -344,15 +360,16 @@ div.select {
   margin: 15px;
 }
 
-.cartehébergement:hover,
-.cartehébergement2:hover,
+.cartehebergement:hover,
+.cartehebergement2:hover,
 .carte1:hover,
 .carte2:hover,
 .carte3:hover {
   cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 
-.cartehébergement2 {
+.cartehebergement2 {
   display: flex;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -543,10 +560,6 @@ div.select {
   padding: 9px;
 }
 
-body {
-  display: flex;
-}
-
 @media all and (max-width: 700px) {
   #header-principal {
     flex-direction: column;
@@ -567,9 +580,12 @@ body {
     right: 0;
   }
 
-  .titres {
-    display: flex;
-    flex-wrap: wrap;
+  .search-icon {
+    display: inline-block !important;
+  }
+
+  .search-text {
+    display: none;
   }
 
   .spacearound {
@@ -577,7 +593,7 @@ body {
     flex-direction: column;
   }
 
-  .hébergement:nth-child(1) {
+  .hebergement:nth-child(1) {
     order: 2;
     background-color: white;
   }
@@ -587,6 +603,44 @@ body {
     border-radius: 0px 0px 0px 0px;
   }
 
-  .hébergement {
+  .cartehebergement {
+    width: 90%;
+  }
+
+  .imagehebergement {
+    width: 98%;
+  }
+
+  .carte1,
+  .carte2,
+  .carte3 {
+    height: 120px;
+    width: 90%;
+  }
+
+  .imagecarte1,
+  .imagecarte2,
+  .imagecarte3 {
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    width: 99%;
+    height: 90px;
+    padding: 3px;
+  }
+
+  .textactivité {
+    padding-top: 4px;
+  }
+
+  .conteneurmarseille {
+    max-height: unset;
+    width: unset;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .grey-box {
+    flex-direction: column;
   }
 }
