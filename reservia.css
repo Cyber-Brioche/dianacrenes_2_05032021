@@ -587,6 +587,10 @@ div.select {
     width: 100%;
   }
 
+  .logoReservia {
+    padding: 10px 0px 0px 10px;
+  }
+
   .headerhebact {
     width: 50%;
   }
@@ -599,6 +603,7 @@ div.select {
   .nodrop {
     position: absolute;
     right: 0;
+    padding-right: 20px;
   }
 
   .search-icon {
@@ -676,13 +681,13 @@ div.select {
   .hebergement:nth-child(1) {
     order: 2;
     background-color: white;
-    width: 70%;
   }
 
   .populaires:nth-child(2) {
     order: 1;
     border-radius: 0px 0px 0px 0px;
-    width: 70%;
+    width: 100%;
+    margin-left: 30px;
   }
 
   .headerhebact {
@@ -696,6 +701,8 @@ div.select {
   .spacearound {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .cartehebergement {
     width: 90%;
@@ -705,13 +712,59 @@ div.select {
     width: 98%;
   }
   body {
-    display: block;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-self: center;
-    max-width: 1395px;
+    width: 900px;
     margin: none;
     padding: none;
+  }
+
+  .carte1,
+  .carte2,
+  .carte3 {
+    height: 120px;
+    width: 90%;
+  }
+
+  .imagecarte1,
+  .imagecarte2,
+  .imagecarte3 {
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    width: 99%;
+    height: 90px;
+    padding: 3px;
+  }
+
+  .textactivité {
+    padding-top: 4px;
+  }
+
+  .conteneurmarseille {
+    max-height: unset;
+    width: unset;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 100px;
+  }
+
+  .titres4 {
+    padding-left: 70px;
+  }
+
+  .taillemarseille {
+    width: 80%;
+  }
+
+  .imagehebergement {
+    width: 99%;
+  }
+
+  .space-cartes {
+    margin-left: 40px;
+  }
+
+  .grey-box {
+    background-color: white;
   }
 }
