@@ -623,12 +623,12 @@ div.select {
     order: 2;
     background-color: white;
     width: 70%;
+    margin-left: 45px;
   }
 
   .populaires:nth-child(2) {
     order: 1;
     border-radius: 0px 0px 0px 0px;
-    width: 70%;
   }
 
   .cartehebergement {
@@ -670,6 +670,7 @@ div.select {
 
   .taillemarseille {
     width: 80%;
+    margin-left: 50px;
   }
 
   .grey-box {
