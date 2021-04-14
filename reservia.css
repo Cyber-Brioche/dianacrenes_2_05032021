@@ -600,6 +600,18 @@ div.select {
     border-color: #0065fc;
   }
 
+  .titres {
+    margin: 20px 0px 15px 19px;
+  }
+
+  .regulartypo {
+    margin-left: 20px;
+  }
+
+  .aligner {
+    margin-left: 20px;
+  }
+
   .nodrop {
     position: absolute;
     right: 0;
@@ -660,6 +672,10 @@ div.select {
     padding-top: 4px;
   }
 
+  .filtre-padding {
+    margin-left: 20px;
+  }
+
   .conteneurmarseille {
     max-height: unset;
     width: unset;
@@ -675,6 +691,10 @@ div.select {
 
   .grey-box {
     flex-direction: column;
+  }
+
+  .info {
+    margin-left: 20px;
   }
 }
 
@@ -767,5 +787,25 @@ div.select {
 
   .grey-box {
     background-color: white;
+  }
+
+  .titres {
+    margin-left: 20px;
+  }
+
+  .regulartypo {
+    margin-left: 20px;
+  }
+
+  .info {
+    margin-left: 20px;
+  }
+
+  .aligner {
+    margin-left: 20px;
+  }
+
+  .filtre-padding {
+    margin-left: 20px;
   }
 }
