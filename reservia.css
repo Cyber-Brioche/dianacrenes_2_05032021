@@ -98,6 +98,10 @@ body {
   margin-right: auto;
 }
 
+.logoReservia img {
+  height: 50px;
+}
+
 a {
   align-self: center;
 }
@@ -698,7 +702,7 @@ div.select {
   }
 }
 
-@media screen and (max-width: 900px) and (min-width: 700px) {
+@media screen and (max-width: 1200px) and (min-width: 700px) {
   .hebergement:nth-child(1) {
     order: 2;
     background-color: white;
